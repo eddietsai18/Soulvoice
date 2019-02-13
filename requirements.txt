@@ -19,4 +19,5 @@ gunicorn==19.4.5
 dj-database-url==0.3.0
 whitenoise==2.0.6
 django-froala-editor==2.0.1
+dj-static==0.0.6
 
