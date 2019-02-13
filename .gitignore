@@ -1,7 +1,5 @@
-# djangogirls/.gitignore
-
-djangogirls_venv
-*.pyc
-__pycache__
-staticfiles
+myvenv
+\_\_pycache\_\_
 db.sqlite3
+media
+local_setting.py
