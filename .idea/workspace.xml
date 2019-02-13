@@ -70,23 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Soulvoice/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="-3025">
               <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <element signature="e#310#319#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Soulvoice/production_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -164,8 +155,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/musics/urls.py" />
         <option value="$PROJECT_DIR$/Soulvoice/urls.py" />
-        <option value="$PROJECT_DIR$/Soulvoice/settings.py" />
         <option value="$PROJECT_DIR$/Soulvoice/production_settings.py" />
+        <option value="$PROJECT_DIR$/Soulvoice/settings.py" />
       </list>
     </option>
   </component>
@@ -336,12 +327,12 @@
       <workItem from="1550040136122" duration="3571000" />
       <workItem from="1550043826974" duration="377000" />
       <workItem from="1550044206828" duration="1411000" />
-      <workItem from="1550048745366" duration="8447000" />
+      <workItem from="1550048745366" duration="8715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171091000" />
+    <option name="totallyTimeSpent" value="171359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -745,6 +736,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Soulvoice/production_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Soulvoice/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -757,18 +758,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Soulvoice/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="-3025">
           <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <element signature="e#310#319#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Soulvoice/production_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
