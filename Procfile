@@ -1,1 +1,1 @@
-web: gunicorn Soulvoice.wsgi --log-file -
+web: gunicorn Soulvoice.wsgi
