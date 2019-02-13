@@ -49,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Soulvoice/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="484">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#226#235#0" expanded="true" />
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Soulvoice/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="455">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Soulvoice/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3025">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="28">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="83" selection-end-column="63" />
               <folding>
                 <element signature="e#310#319#0" expanded="true" />
               </folding>
@@ -150,12 +150,12 @@
         <option value="$PROJECT_DIR$/Soulvoice/local_setting.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/Soulvoice/wsgi.py" />
         <option value="$PROJECT_DIR$/account/templates/base.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/musics/urls.py" />
-        <option value="$PROJECT_DIR$/Soulvoice/urls.py" />
         <option value="$PROJECT_DIR$/Soulvoice/production_settings.py" />
+        <option value="$PROJECT_DIR$/Soulvoice/wsgi.py" />
+        <option value="$PROJECT_DIR$/Soulvoice/urls.py" />
         <option value="$PROJECT_DIR$/Soulvoice/settings.py" />
       </list>
     </option>
@@ -327,12 +327,12 @@
       <workItem from="1550040136122" duration="3571000" />
       <workItem from="1550043826974" duration="377000" />
       <workItem from="1550044206828" duration="1411000" />
-      <workItem from="1550048745366" duration="8715000" />
+      <workItem from="1550048745366" duration="9004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171359000" />
+    <option name="totallyTimeSpent" value="171648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -716,16 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Soulvoice/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#226#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/musics/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -746,10 +736,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Soulvoice/urls.py">
+    <entry file="file://$PROJECT_DIR$/Soulvoice/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#226#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Soulvoice/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
@@ -758,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Soulvoice/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3025">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="28">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="83" selection-end-column="63" />
           <folding>
             <element signature="e#310#319#0" expanded="true" />
           </folding>
