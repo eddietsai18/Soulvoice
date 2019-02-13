@@ -26,9 +26,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'jra$4ns&4!3pmv2+a#7+$spt4aupyi-qx3yiia&=u^nu1_tjt5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -151,23 +151,4 @@ THUMBNAIL_DEBUG = True
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 REDIS_DB = 0
-
-
-
-
-
-STATIC_ROOT = 'account/static'
-
-# Honor the 'X-Forwarded-Proto' header for request.is_secure().
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-    'account/static'
-)
-
-
 
