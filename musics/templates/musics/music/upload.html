@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Upload a song{% endblock %}
+
+{% block content %}
+    <h1>Upload a song</h1>
+    <h2>
+        <a href="{% url "musics:album_upload" %}">Upload your album</a>
+    </h2>
+    <h2>
+       <a href="{% url "musics:song_upload" %}">Upload your song</a>
+    </h2>
+
+
+{% endblock %}

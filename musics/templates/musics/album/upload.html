@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Upload a song{% endblock %}
+
+{% block content %}
+    <h1>Upload a album</h1>
+    <form action='.' method='post' enctype="multipart/form-data">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" value="上傳">
+    </form>
+{% endblock %}

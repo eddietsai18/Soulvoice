@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}{{ album.title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ album.title }}</h1>
+    <div class="info">
+        <a href="{{ album.edit_get_absolute_url }} " class="title">
+            Edit your album
+        </a>
+    </div>
+    <div id="song-list">
+        {% include "musics/music/list_ajax.html" with songs=album.album.all %}
+    </div>
+
+{% endblock %}
+

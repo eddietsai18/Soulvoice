@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Soulvoice{% endblock %}
+
+{% block content %}
+    <h1>Soulvoice</h1>
+    <p>
+        Welcome to soulvoice.You can <a href="{% url "edit" %}">edit your profile</a>
+        or <a href="{% url "password_change" %}">Change your password</a>.
+    </p>
+{#    <p>#}
+{#        <a href="{{  }}">Edit your songs</a>#}
+{#        <a href="">Edit your albums</a>#}
+{##}
+{#    </p>#}
+{%endblock  %}

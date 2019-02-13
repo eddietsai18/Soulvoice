@@ -1,0 +1,16 @@
+{% load thumbnail %}
+
+{% for album in albums %}
+    <div class="image">
+        <a href="{{ album.get_absolute_url }}">
+            <a href="{{ album.get_absolute_url }}">
+                <img src="/media/{{ album.album_image }}">
+            </a>
+        </a>
+        <div class="info">
+            <a href="{{ album.get_absolute_url }}">
+            {{ album.title }} - {{ album.user.get_full_name }}
+            </a>
+        </div>
+    </div>
+{% endfor %}

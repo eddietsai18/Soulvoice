@@ -1,0 +1,79 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/base.css" %}" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <span class="logo">Soulvoice</span>
+        {% if request.user.is_authenticated %}
+            <ul class="menu">
+                <li {% if section == "soulvoice" %}class="selected" {% endif %}>
+                    <a href="{% url "soulvoice" %}">Soulvoice</a>
+                </li>
+                <li {% if section == "album"  %}class="selected"{% endif %}>
+                    <a href="{% url "musics:album_list" %}">找專輯</a>
+                </li>
+                <li {% if section == "music" %}class="selected"{% endif %}>
+                    <a href="{% url "musics:list" %}">找音樂</a>
+                </li>
+                <li {% if section == "people" %}class="selected"{% endif %}>
+                    <a href="{% url "user_list" %}">找歌手</a>
+                </li>
+                <li {% if section == "rank" %}class="selected"{% endif %}>
+                    <a href="{% url "musics:create" %}">看排行</a>
+                </li>
+                 <li {% if section == "upload" %}class="selected"{% endif %}>
+                    <a href="{% url "musics:upload" %}">發佈音樂</a>
+                </li>
+            </ul>
+        {% endif %}
+
+        <span class="user">
+            {% if request.user.is_authenticated %}
+                Hello {{ request.user}},
+                <a href="{% url "logout" %}">Logout</a>
+            {% else %}
+                <a href="{% url "login" %}">Log-in</a>
+            {% endif %}
+        </span>
+    </div>
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li class="{{ message.tags }}">
+                    {{ message|safe }}
+                        <a href="#" class="close">x</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script>
+    var csrftoken = Cookies.get('csrftoken');
+    function csrfSafeMethod(method) {
+      // these HTTP methods do not require CSRF protection
+      return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+    }
+    $.ajaxSetup({
+      beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+          xhr.setRequestHeader("X-CSRFToken", csrftoken);
+        }
+      }
+    });
+    $(document).ready(function(){
+      {% block domready %}
+      {% endblock %}
+       });
+  </script>
+</body>
+</html>

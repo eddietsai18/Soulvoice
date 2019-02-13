@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Songs ranking{% endblock %}
+
+{% block content %}
+    <h1>Songs ranking</h1>
+    <div id="song-list">
+        <ol>
+            {% for song in most_viewed %}
+                <a href="{{ song.get_absolute_url }}">
+                    <a href="{{ song.get_absolute_url }}">
+                        <img src="/media/{{ song.song_image }}">
+                    </a>
+                </a>
+                <li>
+                    <a href="{{ song.get_absolute_url }}">
+                        {{ song.song_title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ol>
+    </div>
+{% endblock %}
+
+

@@ -1,0 +1,17 @@
+{% load thumbnail %}
+
+{% for song in songs %}
+    <div class="image">
+        <a href="{{ song.get_absolute_url }}">
+            <a href="{{ song.get_absolute_url }}">
+                <img src="/media/{{ song.song_image }}">
+            </a>
+        </a>
+        <div class="info">
+            <a href="{{ song.get_absolute_url }} " class="title">
+                {{ song.song_title }}
+            </a>
+        </div>
+    </div>
+{% endfor %}
+

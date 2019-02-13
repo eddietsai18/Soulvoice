@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Edit your album{% endblock %}
+
+{% block content %}
+    <h1>Edit your album</h1>
+    <a href="{% url "musics:album_delete" obj.id %}">Delete</a>
+    <p>You can edit your album using the following form:</p>
+    <form action="." method="post" enctype="multipart/form-data">
+        {{ album_form.as_p }}
+        {% csrf_token %}
+        <input type="submit" value="Save changes">
+    </form>
+{% endblock %} 
