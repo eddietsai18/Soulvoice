@@ -24,6 +24,5 @@ urlpatterns = [
     path('musics/', include('musics.urls', namespace='musics')),
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIAL_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.MEDIAL_URL, document_root=settings.MEDIA_ROOT)
 
