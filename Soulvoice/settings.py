@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 from django.urls import reverse_lazy
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -144,30 +145,6 @@ REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
 REDIS_DB = 0
 
-import dj_database_url
-DATABASES['default'] =  dj_database_url.config()
-# Enable Persistent Connections
-
-DATABASES['default']['CONN_MAX_AGE'] = 500
-# Honor the 'X-Forwarded-Proto' header for request.is_secure()
-
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-# Allow all host headers
-
-ALLOWED_HOSTS = ['*']
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
-
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
-try:
-    from .local_setting import *
-except Exception as e:
-    pass
+

@@ -16,3 +16,6 @@ sorl-thumbnail==12.4.1
 typed-ast==1.2.0
 wrapt==1.11.0
 gunicorn==19.4.5
+dj-database-url==0.3.0
+whitenoise==2.0.6
+jango-froala-editor==2.0.1
