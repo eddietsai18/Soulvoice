@@ -22,8 +22,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('account.urls')),
     path('musics/', include('musics.urls', namespace='musics')),
+
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIAL_URL, document_root=settings.MEDIA_ROOT)
+# if settings.DEBUG:
+urlpatterns += static(settings.MEDIAL_URL, document_root=settings.MEDIA_ROOT)
+
 
