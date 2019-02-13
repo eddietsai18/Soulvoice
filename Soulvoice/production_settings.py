@@ -20,10 +20,11 @@ DEBUG = False
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, STATIC_URL),
+    os.path.join(BASE_DIR, 'static'),
+    'account/static'
 )
 
 MEDIAL_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, MEDIAL_URL)
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 
