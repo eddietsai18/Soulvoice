@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c1493b8-5265-415e-b21c-e56cdd2f7e9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Soulvoice/production_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soulvoice/production_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soulvoice/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Soulvoice/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Soulvoice/production_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -170,8 +166,8 @@
         <option value="$PROJECT_DIR$/Soulvoice/wsgi.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Soulvoice/urls.py" />
-        <option value="$PROJECT_DIR$/Soulvoice/production_settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Soulvoice/production_settings.py" />
       </list>
     </option>
   </component>
@@ -328,12 +324,12 @@
       <workItem from="1550043826974" duration="377000" />
       <workItem from="1550044206828" duration="1411000" />
       <workItem from="1550048745366" duration="10824000" />
-      <workItem from="1550114190492" duration="441000" />
+      <workItem from="1550114190492" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173909000" />
+    <option name="totallyTimeSpent" value="174229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,13 +342,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.1502146" />
       <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.28898427" />
       <window_info id="Favorites" order="2" sideWeight="0.5027933" side_tool="true" weight="0.28898427" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.81418437" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.81418437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32624114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Soulvoice/production_settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
