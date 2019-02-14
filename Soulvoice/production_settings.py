@@ -6,8 +6,9 @@ DATABASES = {
 }
 
 # Static asset configuration.
-STATIC_ROOT = 'account/static'
-
+# STATIC_ROOT = 'account/static'
+STATIC_ROOT = 'staticfiles'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # Honor the 'X-Forwarded-Proto' header for request.is_secure().
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
@@ -20,7 +21,7 @@ DEBUG = False
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static/')
+    os.path.join(BASE_DIR, 'account/static/')
 )
 
 MEDIAL_URL = '/media/'
