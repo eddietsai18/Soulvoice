@@ -154,5 +154,5 @@ REDIS_DB = 0
 
 STATIC_ROOT = 'staticfiles'
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 
